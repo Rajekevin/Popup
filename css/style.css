@@ -16,11 +16,15 @@ input {
 	display: block;
 	margin: 0 auto 50px;
 	width: 75%;
-	
 	border:none;
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	color: black;
+}
+.mail{
+	color:black;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
 }
 
 button {
@@ -129,6 +133,13 @@ p.intro {
 	-moz-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);*/
+}
+
+.centred
+{
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
 }
 
 /*############### Affiche LA POP PUP ###############*/
