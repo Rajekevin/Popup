@@ -8,12 +8,21 @@
 				
 		<meta name="author" content="Rajekevin" />
 		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
 		<!--CSS file -->
-		<script src="js/modernizr.custom.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+
 		<!--Modernizr : JavaScript librairies for test -->
-		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		
+
 		<!-- jQuery Librairies -->
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		
+
+		 <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
@@ -22,19 +31,38 @@
 
 		<div class="box blur-effect" id="popup">
 			<div class="popup-content">
-				<h3>LEA SOFTWARE </h3>
-				<div>
-					<p class="para">LEA IS THE WORLD MOST POPULAR <br/>
-					LEA (List Evaluate & Act) a unique software 
-					<img width="300px" src="img/perspective.png" />
-					Per calceis calceis voluptatum illuc sine ait terga subversasque terga.  </p>
-					<input type="text" placeholder="Adresse email" />
-					<input type="submit" class="submit" value="I am interested" />
+				<H3 class="intro-lead-in">LEA SOFTWARE </h3>
+				<div class="col-lg-12 text-center">
+					<p class="text-muted">LEA IS THE WORLD MOST POPULAR </p><br/>
+					 
+					<img class="img-circle" height="250px"src="img/perspective.png" />
+					<div class="col-lg-6">All your live (Key Performance Indicators - indicators) KPIs with LEA it is possible.
+It is you who determine the criteria of your indicator: language, filters, option 
+</div>
+<div class="col-lg-5">
+	 Your indicators
+
+Nothing imposed you, it is you who determine the indicator model you want, depending on your needs and your company's strategy.
+Download your own indicator and its history with a single click via a CVS or text file
+And create as many indicators as you want as well as the associated paretos. 
+</div> </p>
+
+					<div class="input-group input-group-lg col-md-6 centred">
+						  <span class="input-group-addon" id="sizing-addon1">@</span>
+						  <input type="text" class="mail" placeholder="Adresse email" />   
+					</div>
+				<br/>
+
+					<!--<input class="center"type="text" placeholder="Adresse email" />-->
+					<div class="input-group input-group-lg  col-md-6 centred">
+						<input type="submit" class="submit" value="I am interested" />
+					</div>
 					
 					<div class="close"></div>
 				</div>
 			</div>
 		</div>
+
 
 		<!-- FIN DE LA POPUP -->
 		
