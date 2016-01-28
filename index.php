@@ -37,9 +37,19 @@
 					 
 					<img class="img-circle" height="250px"src="img/perspective.png" />
 					<div class="col-lg-6">All your live (Key Performance Indicators - indicators) KPIs with LEA it is possible.
-It is you who determine the criteria of your indicator: language, filters, option 
+It is you who determine the criteria of your indicator: language, filters, option
+Only pay for what you consume!
+Each month or for a given period.
+Mail from information succeed you at this time
+Only pay for what you consume!<br/>
+Each month or for a given period.
+Mail from information succeed you at this timeOnly pay for what you consume!
+Each month or for a given period.
+Each month or for a given period.
+
 </div>
-<div class="col-lg-5">
+
+<div class="col-lg-6">
 	 Your indicators
 
 Nothing imposed you, it is you who determine the indicator model you want, depending on your needs and your company's strategy.
@@ -58,7 +68,7 @@ And create as many indicators as you want as well as the associated paretos.
 						<input type="submit" class="submit" value="I am interested" />
 					</div>
 					
-					<div class="close"></div>
+					<div class="close_popup"></div>
 				</div>
 			</div>
 		</div>
