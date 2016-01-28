@@ -8,7 +8,7 @@ var popup = (function()
 		$('.popup-button').each(function(i, el) //A partir du click du bouton la pop pup se déclenche
 		{
 			var box = $('#' + $(el).attr('data-modal'));
-			var close = $('.close');
+			var close = $('.close_popup');
 
 			
 			function removeModal() {
