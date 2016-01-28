@@ -238,7 +238,7 @@ p.intro {
 
 
 /*########## BOUTON FERMER #############*/
-.close {
+.close_popup {
 
 	position: absolute;
 	background: url(../img/close.png) no-repeat;
@@ -266,8 +266,8 @@ p.intro {
 	transition: all ease-in-out 0.3s;*/
 }
 
-.close:hover {
-	opacity: 0.2;
+.close_popup:hover {
+	opacity: 0.5;
 }
 
 
@@ -356,7 +356,7 @@ p.intro {
 		font-size: 2em;
 	}
 
-	.close {
+	.close_popup {
 		right: 1px;
 		top: 1px;
 	}
