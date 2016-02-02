@@ -74,6 +74,39 @@ p.intro {
 	color:white;
 }
 
+#animatedModal{
+	
+	background: black url(../img/black.jpg) no-repeat center  top;
+ background-attachment: fixed;
+
+
+
+background-size: cover;
+
+
+  -moz-background-size:contain;
+  -webkit-background-size:contain;
+  background-repeat:no-repeat;
+  
+
+}
+
+#back
+{
+	background: black url(../img/black.jpg) no-repeat center  top;
+ background-attachment: fixed;
+
+
+
+background-size: cover;
+
+
+  -moz-background-size:contain;
+  -webkit-background-size:contain;
+  background-repeat:no-repeat;
+}
+
+
 
 .container {
 	background: url(../img/blur.jpg) no-repeat center top;
@@ -102,6 +135,8 @@ p.intro {
 .title
 {
 	color:white;
+font-family: 'Vollkorn', serif;
+	
 }
 
 .centred
@@ -136,11 +171,12 @@ p.intro {
 }
 /*############### Contenu de la POP PUP ###############*/
 .popup-content {
-	color: white;
+	color:white;
 	position: relative;
 	border-radius: 3px;
 	margin: 0 auto;
 	padding: 6% 10%;
+	font-family: 'Lato', sans-serif;
 }
 
 .popup-content h3 {
@@ -191,8 +227,10 @@ p.intro {
 	top: 0;
     right: 0;
     margin: 20px 20px 0 0;
-    width: 32px;
-    height: 32px;
+    width:90px;
+    height: 90px;
+   /* width: 32px;*/
+    /*height: 32px;*/
     cursor: pointer;
 -webkit-transition: all ease-in-out 0.3s;
 	-o-transition: all ease-in-out 0.3s;
@@ -208,7 +246,7 @@ p.intro {
 /*################## BOUTON I AM INTERESTED #####################*/
 
 .submit {
-	background: #ff4d4d url(../img/heart.png) no-repeat 25% center;
+	background: #1ab394 url(../img/heart.png) no-repeat 25% center;
 	color: white;
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
@@ -247,6 +285,26 @@ p.intro {
 
 }
 
+@media screen and (min-width: 760px) and (max-width: 980px){
+    #animatedModal{
+      background: black url(../img/black.jpg) no-repeat center  top;
+    }
+}
+
+
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+    #animatedModal{
+        background: black url(../img/black.jpg) no-repeat center  top;
+    }
+}
+
+/* Mobile LD */
+@media screen and (max-width: 350px){
+    #animatedModal{
+        background: black url(../img/black.jpg) no-repeat center  top;
+    }
+} 
 @media(max-width: 680px) {
 
 	h1 {
