@@ -23,7 +23,9 @@
 		 <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Vollkorn:700' rel='stylesheet' type='text/css'>
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
 	</head>
 
 
@@ -48,43 +50,41 @@
 
     <!--POP UP-->
     <a id="demo01" class="hidden" href="#animatedModal">DEMO01</a>
-
+<div class="container">
+    <div class="row">
     <!--CONTENU DU POP UP-->
-    <div id="animatedModal">
+    <div id="animatedModal" >
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
        
-        <div class="modal-content">
+        <div class="modal-content" id="back">
                   <!--Your modal content goes here-->
 
+
+
             <div class="col-lg-12 text-center">
-                    <h1 class="intro-lead-in content text-center title">LEA SOFTWARE </h1>
-                    <p class="content title">LEA IS THE WORLD MOST POPULAR SOFTWARE </p><br/>                     
-                    <img class="img-circle" height="250px"src="img/perspective.png" />
+                    <H1 class"title">WELCOME</h1> 
+                    <p class="content title"></p><br/>                     
+                    <img class="img-circle" height="300px"src="img/perspective.png" />
                 
             <div class="col-md-6 popup-content">
-                    All your live (Key Performance Indicators - indicators) KPIs with LEA it is possible.
-                    It is you who determine the criteria of your indicator: language, filters, option
-                    Only pay for what you consume!
-                    Each month or for a given period.
-                    Mail from information succeed you at this time
-                    Only pay for what you consume!<br/>
-                    Each month or for a given period.
-                    Mail from information succeed you at this timeOnly pay for what you consume!
-                    Each month or for a given period.
-                    Each month or for a given period.<br/>
-             
-                     Your indicators<br/>
+                <h3>I am LEA <br/> the  <b>most powerful</b> <br/>software</h3>
+                <br/><br/><br/>
+                <h3>I am fully <b>customizable</b></h3><br/><br/><br/>
 
-                Nothing imposed you, it is you who determine the indicator model you want, depending <br/>on your needs and your company's strategy.
-                Download your own indicator and its history with a single click via a CVS or text file
-                And create as many indicators as you want as well as the associated paretos. <br/>
-                Nothing imposed you, it is you who determine the indicator model you want, depending on your needs and your company's strategy.
-                Download your own indicator and its history with a single click via a CVS or text file
-                And create as many indicators as you want as well as the associated paretos. 
+               <h3> I deliver <b>immediate results</b></h3><br/>
+                    
+                 
+                 
+             
+                   
+
+                 <br/>
+                
             </div> 
 
                 <div class="input-group input-group-lg col-md-6 centred">
-                    <span class="input-group-addon" id="sizing-addon1">@</span>
+                    <br/>
+                    
                     <input type="text" class="mail" placeholder="Adresse email" />   
                 </div>
                     
@@ -98,6 +98,8 @@
              </div><!-- .col-lg-12 -->
         </div><!-- .modal-content-->
     </div><!-- .animatedModal -->
+</div>
+</div>
 
     <!-- FIN DU CONTENU DU POP UP -->
 
