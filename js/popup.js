@@ -1,45 +1,8 @@
-var popup = (function() 
-{
+/*On met un évenement sur le lien qui déclenche 
+la modale et fait "simuler le click en jquery via trigger*/		
 
-	function init() {
-
-		var overlay = $('.overlay');
-
-		$('.popup-button').each(function(i, el) //A partir du click du bouton la pop pup se déclenche
-		{
-			var box = $('#' + $(el).attr('data-modal'));
-			var close = $('.close_popup');
-
-			
-			function removeModal() {
-				box.removeClass('show');
-			}
-
-			
-			function removeModalHandler() {
-				removeModal(); 
-			}
-
-			
-			$(el).click(function()
-			{	
-				box.addClass('show');
-				overlay.unbind("click");
-				
-				overlay.bind("click", removeModalHandler);
-			});
-
-
-			/*Close Pop pup*/
-			close.click(function(event)
-			{
-				event.stopPropagation();
-				removeModalHandler();
-			});
-
-		});
-	}
-
-	init();
-
-})();
+$(function ($) {
+	$("#demo01").animatedModal();
+  $( "#demo01" ).trigger( "click" );
+});
+/*ANIMATEMODAL -> http://joaopereirawd.github.io/animatedModal.js */
